@@ -40,19 +40,19 @@ public class FCountdownPlayerListener extends PlayerListener {
 		}
 	}
 
-		public void onPlayerDropItem(PlayerDropItemEvent event) {
-			Player player = event.getPlayer();
-			if (plugin.frozen.contains(player.getDisplayName().toLowerCase())) {
-				event.setCancelled(true);
-			}
+	public void onPlayerDropItem(PlayerDropItemEvent event) {
+		Player player = event.getPlayer();
+		if (plugin.frozen.contains(player.getDisplayName().toLowerCase())) {
+			event.setCancelled(true);
 		}
+	}
 
-		public void onPlayerPickupItem(PlayerPickupItemEvent event) {
-			Player player = event.getPlayer();
-				if (plugin.frozen.contains(player.getDisplayName().toLowerCase())) {
-				event.setCancelled(true);
-			}
+	public void onPlayerPickupItem(PlayerPickupItemEvent event) {
+		Player player = event.getPlayer();
+			if (plugin.frozen.contains(player.getDisplayName().toLowerCase())) {
+			event.setCancelled(true);
 		}
+	}
 	
 	
 }
