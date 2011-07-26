@@ -1,0 +1,14 @@
+name: FCountdown
+main: me.fabis.FCountdown.FCountdown
+version: 0.1
+commands:
+   fcountdown:
+      description: FCountdown plugin commands
+      aliases:
+             - fcd
+      usage: |
+           /<command> cdprivate [number] [true/false] [world,x,y,z]
+           /<command> cdpublic [number] [person,person2] [world,x,y,z]
+           /<command> cdgroup [person,person2] [number] [person,person2] [world,x,y,z]
+           /<command> stop
+           /<command> about
