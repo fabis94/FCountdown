@@ -28,7 +28,7 @@ public class FCountdownPlayerListener extends PlayerListener {
 			event.setCancelled(true);
 		}
 		if (event.getAction() == Action.RIGHT_CLICK_BLOCK && block != null && block.getType().equals(Material.SIGN) || block.getType().equals(Material.SIGN_POST)) {
-			//Player right clicked a sign
+			//Player right clicked a sign LETS DO THIS
 		}
 	}
 	
